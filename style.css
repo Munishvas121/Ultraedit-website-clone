@@ -1,10 +1,74 @@
+*{
+  margin-left: 0px;
+  margin-right: 0px;
+  padding:0;
+  line-height: 100%;
+}
+/* Navbar container */
+nav {
+  /* position: absolute; */
+justify-content: center;
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+/* Unordered list styling */
+.navbar {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 2vw; /* Better spacing control */
+  width: 70vw;
+  margin: 0;
+  padding: 0;
+}
+
+/* List items */
+.navbar li {
+  display: flex;
+  align-items: center;
+}
+
+/* Space class for spacing */
+.space {
+  width: 70px;
+}
+
+/* Hover effect */
+nav li:hover {
+  cursor: pointer;
+  color: #007BFF; /* Add a hover color */
+}
+
+/* Logo styling */
+.logo {
+  width: 200px;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  nav {
+      flex-wrap: wrap;
+      padding-left: 20px;
+  }
+
+  ul {
+      flex-wrap: wrap;
+      justify-content: center;
+  }
+
+  .space {
+      display: none; /* Hide space on smaller screens */
+  }
+}
 .after-nav {
   display: block;
   margin-top: 60px;
   text-align: center;
 }
 
-.after-nav h1 {
+.after-nav span {
   font-size: 48px;
 }
 
