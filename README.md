@@ -4,7 +4,7 @@ A responsive clone of the UltraEdit website, showcasing its layout, styling, and
 
 ## Deployed Website
 See the live demo at:  
-[https://munishvas121.github.io/Ultraedit-website-clone/](https://munishvas121.github.io/Ultraedit-website-clone/)
+[https://www.ultraedit.com/](https://www.ultraedit.com/)
 
 ## Features
 - Responsive navigation bar with logo and menu items  
